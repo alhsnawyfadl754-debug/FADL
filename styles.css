@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    scroll-behavior:  smooth;
+    font-family: Poppins, serif;
+}
+
+body {
+    background-color: rgb(13, 24, 43);
+}
+
+
+header {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max: width 1200px; ;
+}
+
+.navigation  ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.navigation a:hover {
+   
+    color: rgb(0, 134, 236);
+}
+
+hr{
+    opacity: 10%;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.arrow{
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+.herosub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.name{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.title{
+    font-size: 4rem;
+    color: rgb(40, 132, 148);
+}
+
+.hireme{
+    background-color: rgb(46, 165, 165);
+    color: aliceblue;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0,0.5);
+}
+.aboutme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.textTitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.aboutName{
+    color: aliceblue;
+}
+.aboutTitle{
+    color: aqua;
+}
+.aboutMePar{
+    text-align: justify;
+    color: aliceblue;
+}
